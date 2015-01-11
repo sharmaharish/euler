@@ -1,0 +1,5 @@
+(defun run-kawa ()
+  (interactive)
+  (require 'cmuscheme)
+  (let ((scheme-program-name "/Users/harish/Local/kawa/bin/kawa"))
+    (run-scheme scheme-program-name)))
