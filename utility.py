@@ -1,5 +1,13 @@
 import math
 
+def count_digits(n):
+    c = 0
+    n = abs(n)
+    while n > 0:
+        c += 1
+        n /= 10
+    return c
+
 def number_to_digits(n):
     ds = []
     n = abs(n)
